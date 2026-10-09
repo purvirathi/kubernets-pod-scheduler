@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ai-scheduler-pod
+spec:
+  schedulerName: ai-scheduler
+  containers:
+    - name: nginx
+      image: nginx
+      resources:
+        requests:
+          cpu: "500m"
+          memory: "512Mi"
+          

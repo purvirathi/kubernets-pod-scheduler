@@ -1,0 +1,5 @@
+Recommended Node: Node-2
+
+Node-2: feasible=True, probability=0.7089
+Node-3: feasible=True, probability=0.2988
+Node-1: feasible=True, probability=0.0043

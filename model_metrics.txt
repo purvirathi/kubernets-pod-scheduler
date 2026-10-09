@@ -1,0 +1,20 @@
+Model: Random Forest Classifier
+Dataset rows: 12000
+Train rows: 9600
+Test rows: 2400
+Features: 14
+Accuracy: 0.7875
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0     0.8785    0.7906    0.8322      1600
+           1     0.6510    0.7812    0.7102       800
+
+    accuracy                         0.7875      2400
+   macro avg     0.7648    0.7859    0.7712      2400
+weighted avg     0.8027    0.7875    0.7916      2400
+
+Confusion matrix:
+[[1265  335]
+ [ 175  625]]

@@ -1,0 +1,4 @@
+1. pip install -r requirements.txt
+2. python demo.py
+3. (optional) python train_model.py
+4. Give the integration teammate: predict_node.py + scheduler_model.joblib
